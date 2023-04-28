@@ -75,6 +75,14 @@ header {
 /* ========================= MEDIA QUERIES (SMALL DEVICES) ============== */
 
 @media screen and (max-width : 600px) {
+    .header__container {
+        width: 100%;
+        padding: 2rem 1rem;
+        
+    }
+
+    
+    
     header {
         height: 100vh;
     }
@@ -82,5 +90,8 @@ header {
     .header__social,
     .scroll__down {
         display: none;
+    }
+    .cta {
+        gap: 1rem;
     }
 }
