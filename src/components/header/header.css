@@ -38,9 +38,8 @@ header {
 }
 
 /* ==================== ME ================== */
-.me{
-    background: linear-gradient(var(--color-primary
-    ),transparent);
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
     width: 20rem;
     height: 28rem;
     position: absolute;
@@ -80,7 +79,8 @@ header {
         height: 100vh;
     }
 
-    .header__social, .scroll__down {
+    .header__social,
+    .scroll__down {
         display: none;
     }
 }
