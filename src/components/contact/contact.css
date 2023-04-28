@@ -82,7 +82,7 @@ textarea {
     }
 
     form {
-        display: flex;
+        display: grid;
         flex-direction: column;
         gap: 1rem;
     }
