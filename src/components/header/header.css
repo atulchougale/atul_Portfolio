@@ -76,13 +76,13 @@ header {
 
 @media screen and (max-width : 600px) {
     .header__container {
-        width: 100%;
+        width: 80%;
         padding: 2rem 1rem;
-        
+
     }
 
-    
-    
+
+
     header {
         height: 100vh;
     }
@@ -91,7 +91,10 @@ header {
     .scroll__down {
         display: none;
     }
+
     .cta {
-        gap: 1rem;
+        display: flex;
+        gap: 1.2rem;
+        justify-content: center;
     }
 }

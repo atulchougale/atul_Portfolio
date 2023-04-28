@@ -72,4 +72,8 @@ footer a {
     .footer__socials {
         margin-bottom: 2.6rem;
     }
+
+    footer {
+        width: 100%;
+    }
 }
