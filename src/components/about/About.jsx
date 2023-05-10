@@ -4,7 +4,7 @@ import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/about_me.jpg'
 
 const About = () => {
   return (
@@ -41,7 +41,16 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quos accusamus, illum, mollitia odit officia, impedit adipisci odio rerum voluptate commodi in voluptatum tempore fugiat laboriosam illo placeat numquam animi?
+            Hello, I'm Atul Shahaji Chougale, a full-stack developer and sales executive based in Kolhapur. I have a background in mechanical engineering, having completed my BE from Shivaji University Kolhapur.
+            </p>
+          <p>
+            After graduation, I decided to explore a career in sales and worked as a sales executive at HDB Financial Services in Kolhapur for two years. During my time there, I was recognized for my hard work and dedication, winning three awards for the best performance of the month. I worked my way up to the senior sales executive position within one year.
+          </p>
+          <p>
+            However, I realized that my true passion lay in software development, which led me to pursue a career in the technology industry. I completed a six-month internship at Arogo Plus, where I worked as a full-stack developer. During my time there, I gained experience working with technologies such as HTML , CSS , Javascript ,React js, mongodb,Node js , express js ,Bootstrap , tailwind css .
+          </p>
+          <p>
+            Now, as a full-stack developer, I'm excited to continue building innovative software solutions that make a difference in people's lives.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

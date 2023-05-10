@@ -16,6 +16,7 @@
 
 
 .about__me-image {
+    width:100%;
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
@@ -31,6 +32,13 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
+
+/* img {
+    display: block;
+    object-fit: fill;
+    height: px;
+    width: 100%;
+} */
 
 .about__card {
     background: var(--color-bg-variant);
