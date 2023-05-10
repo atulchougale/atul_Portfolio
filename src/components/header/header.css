@@ -84,7 +84,7 @@ header {
 
 
     header {
-        height: 100vh;
+        height: 140vh;
     }
 
     .header__social,
@@ -97,4 +97,6 @@ header {
         gap: 1.2rem;
         justify-content: center;
     }
+
+  
 }
