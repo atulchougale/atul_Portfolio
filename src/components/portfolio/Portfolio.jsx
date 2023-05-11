@@ -4,8 +4,9 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG5 from '../../assets/calculator1.png'
+import IMG6 from '../../assets/Quiz_app2.png'
+import IMG7 from '../../assets/pancard21.png'
 
 const Portfolio = () => {
 
@@ -13,45 +14,60 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
-      title: 'project 1',
-      github: 'https://github.com/',
-      demo: ''
+      title: 'Blog Application',
+      githubBackend: 'https://github.com/atulchougale/Blog-App-BE.git',
+      githubFrontend: 'https://github.com/atulchougale/Blog-App-FE.git',
+      demo: 'https://ac-myblog-apllication.netlify.app/'
     },
     {
       id: 2,
       image: IMG2,
-      title: 'project 2',
-      github: 'https://github.com/',
-      demo: ''
+      title: 'Gold Rate Calculator',
+      githubBackend: 'https://github.com/',
+      githubFrontend: 'https://github.com/atulchougale/project-GoldRateCalculator-frontend.git',
+      demo: 'https://gold-rate-calculator-ac.netlify.app/'
     },
     {
       id: 3,
       image: IMG3,
-      title: 'project 3',
-      github: 'https://github.com/',
-      demo: ''
+      title: 'Url Shortener',
+      githubBackend: 'https://github.com/atulchougale/urlshortener-backend.git',
+      githubFrontend: 'https://github.com/atulchougale/urlShortner-frontend.git',
+      demo: 'https://urlshortner-frontend.netlify.app/'
     },
     {
       id: 4,
       image: IMG4,
-      title: 'project 4',
-      github: 'https://github.com/',
-      demo: ''
+      title: 'FOODII- Food Delivery application',
+      githubBackend: 'https://github.com/atulchougale/MINI_PROJECT_FINAL_FOOD_DELIVERY--FOODII.git',
+      githubFrontend: 'https://github.com/atulchougale/MINI_PROJECT_FINAL_FOOD_DELIVERY--FOODII.git',
+      demo: 'https://mini-project-foodii-new.netlify.app/'
     },
     {
       id: 5,
       image: IMG5,
-      title: 'project 5',
-      github: 'https://github.com/',
-      demo: ''
+      title: 'Demo- Calculator',
+      githubBackend: 'https://github.com/atulchougale/DOM-Calculator.git',
+      githubFrontend: 'https://github.com/atulchougale/DOM-Calculator.git',
+      demo: 'https://dom-claculator.netlify.app/'
     },
     {
       id: 6,
       image: IMG6,
-      title: 'project 6',
-      github: 'https://github.com/',
-      demo: ''
+      title: 'Demo- Quiz Application',
+      githubBackend: 'https://github.com/atulchougale/Quiz_App_nonRsponsive.git',
+      githubFrontend: 'https://github.com/atulchougale/Quiz_App_nonRsponsive.git',
+      demo: 'https://quiz-app-nonresponcive.netlify.app/'
     },
+    {
+      id: 7,
+      image: IMG7,
+      title: 'Demo- Pan Card Application Form',
+      githubBackend: 'https://github.com/atulchougale/PAN-Card-Applicatin.git',
+      githubFrontend: 'https://github.com/atulchougale/PAN-Card-Applicatin.git',
+      demo: 'https://pan-card-applicatin.netlify.app/'
+    },
+    
 
   ]
   return (
@@ -60,7 +76,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {
-          data.map(({ id, image, title, github, demo }) => {
+          data.map(({ id, image, title, githubFrontend,githubBackend, demo }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -68,8 +84,12 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn' rel='noreferrer' target='_blank'>Github</a>
-                  <a href={demo} className='btn btn-primary' rel='noreferrer' target='_blank'>Live Demo</a>
+                  <a href={githubFrontend} className='btn' rel='noreferrer' target='_blank'>Github Clint</a>
+                  <a href={githubBackend} className='btn' rel='noreferrer' target='_blank'>Github Server</a>
+                </div>
+                <div className="portfolio__item-cta2">
+                <a href={demo} className='btn btn-primary' rel='noreferrer' target='_blank'>Live Demo</a>
+
                 </div>
               </article>
             )

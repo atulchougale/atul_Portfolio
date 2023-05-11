@@ -15,20 +15,29 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>As a frontend web developer, I specialize in HTML, CSS, Bootstrap, Tailwind CSS, Material UI, and React JS.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I build responsive and dynamic user interfaces that adapt to different devices, including desktops, laptops, tablets, and mobile phones.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I optimize web page performance to ensure fast load times and smooth user experiences.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I implement accessibility features to make websites usable for everyone.</p>
             </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>I create cross-browser compatible designs to ensure consistent experiences across different devices and browsers.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>I ensure seamless integration with backend systems to create fully functional web applications.</p>
+            </li>
+            
           </ul>
         </article>
         {/* END OF ul/UX */}
@@ -40,19 +49,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I specialize in user authentication services as a web developer.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I build robust login systems for web applications.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I implement OAuth authentication with social media platforms.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I design secure password management workflows.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>My goal is to ensure a seamless and secure user experience.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>I have some knowledge in exception handling to ensure that software applications can gracefully recover from errors and continue to operate reliably.</p>
             </li>
           </ul>
         </article>
@@ -65,19 +82,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I provide services using Git, GitHub, AWS, Render, Netlify, and Postman.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I use Git and GitHub for version control and collaboration with other developers.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I deploy web applications on cloud platforms such as AWS and Render.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>I ensure web application scalability and performance.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>I use Netlify for continuous integration and deployment.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>I test web APIs using Postman.</p>
             </li>
           </ul>
         </article>

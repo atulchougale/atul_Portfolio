@@ -29,6 +29,14 @@
 
 .portfolio__item-cta {
     display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio__item-cta2 {
+    display: flex;
+    justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
 }

@@ -12,9 +12,7 @@ import 'swiper/css/pagination';
 
 
 import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+
 
 const Testimonials = () => {
 
@@ -24,21 +22,7 @@ const Testimonials = () => {
             name: 'testimonial name 1',
             review: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, incidunt.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, incidunt.'
         },
-        {
-            avatar: AVTR2,
-            name: 'testimonial name 2',
-            review: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, incidunt.'
-        },
-        {
-            avatar: AVTR3,
-            name: 'testimonial name 3',
-            review: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, incidunt.'
-        },
-        {
-            avatar: AVTR4,
-            name: 'testimonial name 4',
-            review: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, incidunt.'
-        },
+        
     ]
 
     return (
