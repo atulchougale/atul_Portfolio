@@ -52,7 +52,7 @@ const About = () => {
 
           I am always eager to learn new technologies and explore myself in this industry. As a full-stack developer, I'm excited to continue building innovative software solutions that make a difference in people's lives.          </p>
           <p>
-          I am so confident now that I can work independently as a full stack developer and build the application on my own using the above technologies.
+          I am so confident now that I can work independently as a full stack developer and build an application on my own using the above technologies.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
