@@ -40,8 +40,8 @@ header {
 /* ==================== ME ================== */
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 20rem;
-    height: 28rem;
+    width: 30rem;
+    height: 35rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
