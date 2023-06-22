@@ -17,11 +17,11 @@ import AVTR1 from '../../assets/avatar1.jpg'
 const Testimonials = () => {
 
     const data = [
-        {
-            avatar: AVTR1,
-            name: 'testimonial name 1',
-            review: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, incidunt.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, incidunt.'
-        },
+        // {
+        //     avatar: AVTR1,
+        //     name: 'testimonial name 1',
+        //     review: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, incidunt.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, incidunt.'
+        // },
         
     ]
 
