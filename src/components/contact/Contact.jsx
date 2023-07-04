@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
-import { RiMessengerLine } from 'react-icons/ri';
-import { BsWhatsapp, BsInstagram } from 'react-icons/bs';
+// import { RiMessengerLine } from 'react-icons/ri';
+import { BsWhatsapp, BsInstagram, BsGithub } from 'react-icons/bs';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -49,6 +49,13 @@ const Contact = () => {
             <h5>atulchougale07</h5>
             <a href=" https://ig.me/m/atulchougale07" rel='noreferrer' target='_blank'>Send a message</a>
           </article> */}
+
+          <article className="contact__option">
+            <BsGithub className='contact__option-icon' />
+            <h4>GitHub</h4>
+            <h5>Atul Chougale</h5>
+            <a href=" https://github.com/atulchougale/" rel='noreferrer' target='_blank'>Send a message</a>
+          </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
 
