@@ -7,7 +7,7 @@ import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
-import Testimonial from './components/testimonials/Testimonials';
+// import Testimonial from './components/testimonials/Testimonials';
 import Footer from './components/footer/Footer';
 
 
@@ -21,7 +21,7 @@ function App() {
       <Experience />
       <Services />
       <Portfolio />
-      <Testimonial />
+      
       <Contact />
       <Footer />
     </>
